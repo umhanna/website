@@ -19,7 +19,7 @@ $(window).load(function() {
         if(i%2 == 0){
           $(imgList[i]).css({left:"0px"});
         }else{
-          $(imgList[i]).css({right:"0px",marginTop:"150px"});
+          $(imgList[i]).css({right:"0px",marginTop:"5%"});
         }
     }
     
@@ -65,7 +65,6 @@ $(window).ready(function(){
             TweenMax.to($(this).find(".pj_cont"), 0.4, {top:-35});
         },
         mouseleave : function(e){
-            //e.preventDefault();
             $(".work_list .grid .grid-item").removeClass("hover");
             TweenMax.to($(".hover_box dl"), 0.2, {opacity:0,marginTop:-20});
             TweenMax.to($(this).find(".thumb_img img"), 0.5, {scale:1});
