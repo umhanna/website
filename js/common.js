@@ -61,7 +61,7 @@ $(window).ready(function(){
             $(this).closest(".grid-item").addClass("hover");
             TweenMax.to($(this).find(".hover_box dl"), 0.3, {opacity:1,marginTop:0,delay:0.3});
             TweenMax.to($(this).find(".thumb_img img"), 0.9, {scale:1.1});
-            TweenMax.to($(this), 0.9, {cursor:'url(../images/list_cursor.png) 30 30,auto', ease: Circ.easeInOut});
+            TweenMax.to($(this), 0.9, {cursor:'url(../website/images/list_cursor.png) 30 30,auto', ease: Circ.easeInOut});
             TweenMax.to($(this).find(".pj_cont"), 0.4, {top:-35});
         },
         mouseleave : function(e){
