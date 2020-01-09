@@ -13,9 +13,6 @@ $(window).load(function() {
         y = imgStack[minIndex];
         imgStack[minIndex] += ($(imgList[i]).find("img").height() + 150);
         $(imgList[i]).css({top : `${y}px`});
-        $(window).resize(function(){
-            $(imgList[i]).css({top : `${y}px`});
-        });
         if(i === imgList.length - 1) {
         $(".grid").css({height : `${Math.max.apply(0, imgStack)}px`});
         $(window).resize(function(){
