@@ -21,13 +21,6 @@ $(window).load(function() {
         }else{
           $(imgList[i]).css({right:"0px",marginTop:"5%"});
         }
-        $(window).resize(function(){
-            imgStack[minIndex] += ($(imgList[i]).find("img").height() + 150);
-            $(imgList[i]).css({top : `${y}px`});
-            if(i === imgList.length - 1) {
-            $(".grid").css({height : `${Math.max.apply(0, imgStack)}px`});
-            }
-        });
     }
     
 });
