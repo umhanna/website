@@ -22,7 +22,9 @@ $(window).load(function() {
           $(imgList[i]).css({right:"0px",marginTop:"5%"});
         }
         $(window).resize(function(){
-            imgStack[minIndex] += ($(imgList[i]).find("img").height() + 150);
+            minIndex = imgStack.indexOf(Math.min.apply(0, imgStack));
+            x = colWidth * minIndex;
+            y = imgStack[minIndex];
             $(imgList[i]).css({top : `${y}px`});
             if(i === imgList.length - 1) {
             $(".grid").css({height : `${Math.max.apply(0, imgStack)}px`});
