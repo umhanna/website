@@ -4,6 +4,9 @@ $(window).load(function() {
     $('#intro').fadeOut();
     $("html").css("overflow-y","scroll");
     //list
+    listPosition();
+});
+function listPosition(){
     imgList = $(".grid-item");
     imgStack = [0, 0];
     colWidth = 400;
@@ -17,25 +20,17 @@ $(window).load(function() {
         $(".grid").css({height : `${Math.max.apply(0, imgStack)}px`});
         }
         if(i%2 == 0){
-          $(imgList[i]).css({left:"0px"});
+        $(imgList[i]).css({left:"0px"});
         }else{
-          $(imgList[i]).css({right:"0px",marginTop:"5%"});
+        $(imgList[i]).css({right:"0px",marginTop:"5%"});
         }
-        $(window).resize(function(){
-            minIndex = imgStack.indexOf(Math.min.apply(0, imgStack));
-            x = colWidth * minIndex;
-            y = imgStack[minIndex];
-            $(imgList[i]).css({top : `${y}px`});
-            if(i === imgList.length - 1) {
-            $(".grid").css({height : `${Math.max.apply(0, imgStack)}px`});
-            }
-        });
     }
-    
-});
-
+}
 
 $(window).ready(function(){
+    $(window).resize(function(){
+        listPosition();
+    });
     //nav link
     var headHeight = $("header .header_fix").height();
     $("#gnb li a").on({
