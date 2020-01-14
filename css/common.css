@@ -262,6 +262,12 @@ footer .copyright{font-size:14px;color:#222;}
 
   .work_list .grid .grid-item{position:relative;display:block;width:100%;max-width:100%;box-sizing:border-box;}
 
+  .about{padding:60px 0;}
+  .about h2.title{margin-bottom:50px;line-height:50px;font-size:50px;}
+  .about .about_cont ul{max-width:310px;margin:-20px auto 0;}
+  .about .about_cont ul li{display:block;text-align:left;margin-left:0;height:40px;line-height:40px;font-size:14px;}
+  .about .about_cont ul li span{width:40px;height:40px;background-size:40px;}
+
 }
 
 
