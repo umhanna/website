@@ -30,7 +30,9 @@ function listPosition(){
 
 $(window).ready(function(){
     $(window).resize(function(){
-        listPosition();
+        if($(window).width() > 767){
+            listPosition();
+        }
     });
     //nav link
     var headHeight = $("header .header_fix").height();
