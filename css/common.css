@@ -225,7 +225,7 @@ footer .copyright{font-size:14px;color:#222;}
   header .header_inner .menu_btn{right:20px;}
   header .header_fix{border-bottom:0;background:url(../images/work/view_hd_bg.png) 0 0 repeat;}
 
-  .about .cont_center > div{padding:0px 40px;}
+  .about .cont_center > div > ul{padding:0px 40px;}
   .about .bg_txt{font-size:150px;}
 
 }
