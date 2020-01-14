@@ -260,7 +260,7 @@ footer .copyright{font-size:14px;color:#222;}
   header .header_inner .menu_btn.on span{transform: rotate(45deg) translate(1px, 1px);}
   .cont_center{padding:0 20px;}
 
-  .work_list .grid .grid-item{position:relative;display:block;width:100%;max-width:100%;}
+  .work_list .grid .grid-item{position:relative;display:block;width:100%;max-width:100%;box-sizing:border-box;}
 
 }
 
