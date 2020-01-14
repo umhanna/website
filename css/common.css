@@ -225,15 +225,20 @@ footer .copyright{font-size:14px;color:#222;}
   header .header_inner .menu_btn{right:20px;}
   header .header_fix{border-bottom:0;background:url(../images/work/view_hd_bg.png) 0 0 repeat;}
 
-  .about .bg_txt{font-size:150px;}
-
 }
 
 @media (max-width: 1024px) {
   header .header_inner{padding:0 0px;}
   header .header_inner .logo{left:20px;}
+  header .header_inner .logo img{height:34px;}
+  header .header_inner .menu_btn{right:20px;width:36px;height:26px;}
+  header .header_inner .menu_btn span{height:2px;}
 
-  header .header_inner .menu_btn{right:20px;}
+
+  .about .bg_txt{font-size:150px;margin-top:-90px;}
+  .work_list .grid .grid-item .pj_cont dl dt{margin-bottom:5px;font-size:28px;line-height:24px;}
+  .work_list .grid .grid-item .pj_cont dl dt span{font-size:18px;}
+  .work_list .grid .grid-item .pj_cont dl dd{font-size:18px;}
 
 
 }
