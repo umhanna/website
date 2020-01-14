@@ -28,7 +28,8 @@ function listPosition(){
             }
         }
     }else{
-        $(".grid").css({height :"auto",left:"inherit",right:"auto",marginTop:"20px"});
+        $(".grid").css({height :"auto"});
+        $(".grid .grid-item").css({left:"inherit",right:"auto",marginTop:"20px"});
     }
 }
 
