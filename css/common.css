@@ -233,6 +233,9 @@ footer .copyright{font-size:14px;color:#222;}
   header .header_inner .logo img{height:34px;}
   header .header_inner .menu_btn{right:20px;width:36px;height:26px;}
   header .header_inner .menu_btn span{height:2px;}
+  #gnb ul li{margin-top:50px;}
+  #gnb ul li a{font-size:65px;}
+  .gnb_bg .bg_txt{font-size:140px;line-height:140px;}
 
   .work_list{padding-top:50px;}
 
