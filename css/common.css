@@ -129,7 +129,7 @@ footer .copyright{font-size:14px;color:#222;}
 .about .about_cont ul{text-align:center;margin-top:-20px;padding:0 30px;}
 .about .about_cont ul li{position:relative;display:inline-block;margin-top:20px;padding-left:65px;margin-left:50px;height:50px;line-height:50px;font-size:18px;font-weight:500;color:#555;}
 .about .about_cont ul li a{color:#555;}
-.about .about_cont ul li span{display:block;position:absolute;left:0;top:0;width:50px;height:50px;background:url(../images/about_icons.png) 0 0 no-repeat;}
+.about .about_cont ul li span{display:block;position:absolute;left:0;top:0;width:50px;height:50px;background-image:url(../images/about_icons.png);background-position:0 0;background-repeat:no-repeat;}
 .about .about_cont ul li:first-child{margin-left:0;}
 .about .about_cont ul li.icon02 span{background-position:-50px 0;}
 .about .about_cont ul li.icon03 span{background-position:-100px 0;}
@@ -265,7 +265,7 @@ footer .copyright{font-size:14px;color:#222;}
   .about{padding:60px 0;}
   .about h2.title{margin-bottom:50px;line-height:50px;font-size:50px;}
   .about .about_cont ul{max-width:310px;margin:-20px auto 0;}
-  .about .about_cont ul li{display:block;text-align:left;margin-left:0;height:40px;line-height:40px;font-size:14px;}
+  .about .about_cont ul li{display:block;text-align:left;margin-left:0;height:40px;line-height:40px;font-size:16px;}
   .about .about_cont ul li span{width:40px;height:40px;background-size:40px;}
 
 }
