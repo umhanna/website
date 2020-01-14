@@ -6,6 +6,7 @@ $(window).load(function() {
     //list
     listPosition();
 });
+//listPosition
 function listPosition(){
     imgList = $(".grid-item");
     imgStack = [0, 0];
