@@ -27,6 +27,8 @@ function listPosition(){
             $(imgList[i]).css({right:"0px",marginTop:"5%"});
             }
         }
+    }else{
+        $(".grid").css({height :"auto",left:"inherit",right:"auto",marginTop:"20px"});
     }
 }
 
