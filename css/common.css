@@ -221,7 +221,7 @@ footer .copyright{font-size:14px;color:#222;}
 
 
 /* Media Query */
-@media (max-width: 1600px) {
+@media screen and (max-width: 1600px) {
   header .header_inner{padding:0 0px;}
   header .header_inner .logo{left:20px;}
   header .header_inner .menu_btn{right:20px;}
@@ -229,7 +229,7 @@ footer .copyright{font-size:14px;color:#222;}
 
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   header .header_inner{padding:0 0px;}
   header .header_inner .logo{left:20px;}
   header .header_inner .logo img{height:34px;}
@@ -250,7 +250,7 @@ footer .copyright{font-size:14px;color:#222;}
 }
 
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   header{height:60px;}
   header .header_fix{height:60px;}
   header .header_inner .logo img{height:25px;}
@@ -305,7 +305,7 @@ footer .copyright{font-size:14px;color:#222;}
 }
 
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   #intro svg{height:60px;}
   .about h2.title{margin-bottom:30px;font-size:40px;line-height:40px;}
   .work_list .grid .grid-item{padding:0;}
