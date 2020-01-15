@@ -278,7 +278,7 @@ footer .copyright{font-size:14px;color:#222;}
   .about .about_cont ul li.icon05 span{background-position:-160px 0;}
 
   .about .skill_cont ul{font-size:0;}
-  .about .skill_cont ul li{display:inline-block;float:none;min-width:50%;width:auto;height:40px;line-height:40px;font-size:16px;}
+  .about .skill_cont ul li{display:inline-block;float:none;padding-left:50px;min-width:50%;width:auto;height:40px;line-height:40px;font-size:16px;}
   .about .skill_cont ul li span{width:40px;height:40px;background-size:200px;background-position:0 -40px;}
   .about .skill_cont ul li.icon02 span{background-position:-40px -40px;}
   .about .skill_cont ul li.icon03 span{background-position:-80px -40px;}
@@ -288,7 +288,7 @@ footer .copyright{font-size:14px;color:#222;}
 
   .about .history_cont{margin-bottom:50px;}
   .about .history_list ul{padding:20px 0px;}
-  .about .history_list ul li{margin-top:20px;line-height:22px;font-size:15px;}
+  .about .history_list ul li{margin-top:20px;padding-left:50px;line-height:22px;font-size:15px;}
   .about .history_list ul li span{margin-bottom:5px;font-size:18px;}
   .about .history_list ul li.left{padding-right:20px;}
   .about .history_list ul li.right{padding-left:20px;}
@@ -298,6 +298,8 @@ footer .copyright{font-size:14px;color:#222;}
 
 
 @media (max-width: 480px) {
+  #intro svg{height:60px;}
+  .about h2.title{margin-bottom:30px;font-size:40px;line-height:40px;}
   .work_list .grid .grid-item{padding:0;}
   .about .skill_cont ul li{min-width:100%;}
 }
