@@ -1,6 +1,8 @@
 
 $(window).load(function() {
+    $("html").css("overflow-y","hidden");
     $('#intro').fadeOut();
+    $("html").css("overflow-y","scroll");
     //list
     listPosition();
 });
@@ -9,7 +11,7 @@ function listPosition(){
     imgList = $(".grid-item");
     imgStack = [0, 0];
     colWidth = 400;
-    if($(window).width() > 767){
+    if($(window).innerWidth() > 767){
         for(i = 0; i < imgList.length; i++) {
             minIndex = imgStack.indexOf(Math.min.apply(0, imgStack));
             x = colWidth * minIndex;
@@ -25,8 +27,8 @@ function listPosition(){
             $(imgList[i]).css({right:"0px",marginTop:"5%"});
             }
         }
-    }else if(($(window).width() < 768)){
-        console.log("a",$(window).width());
+    }else if(($(window).innerWidth() < 768)){
+        console.log("a",$(window).innerWidth());
         $(".grid").css({height :"auto"});
         $(".grid .grid-item").css({top:"0px",left:"inherit",right:"inherit",marginTop:"40px"});
     }
