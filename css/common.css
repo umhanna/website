@@ -129,7 +129,8 @@ footer .copyright{font-size:14px;color:#222;}
 .about .about_cont ul{text-align:center;margin-top:-20px;padding:0 30px;}
 .about .about_cont ul li{position:relative;display:inline-block;margin-top:20px;padding-left:65px;margin-left:50px;height:50px;line-height:50px;font-size:18px;font-weight:500;color:#555;}
 .about .about_cont ul li a{color:#555;}
-.about .about_cont ul li span{display:block;position:absolute;left:0;top:0;width:50px;height:50px;background-image:url(../images/about_icons.png);background-position:0 0;background-repeat:no-repeat;}
+.about .about_cont ul li span.txt{display:inline-block;line-height:24px;vertical-align:middle;}
+.about .about_cont ul li span.icon{display:block;position:absolute;left:0;top:0;width:50px;height:50px;background-image:url(../images/about_icons.png);background-position:0 0;background-repeat:no-repeat;}
 .about .about_cont ul li:first-child{margin-left:0;}
 .about .about_cont ul li.icon02 span{background-position:-50px 0;}
 .about .about_cont ul li.icon03 span{background-position:-100px 0;}
@@ -153,7 +154,8 @@ footer .copyright{font-size:14px;color:#222;}
 .about .skill_cont .bg_txt{right:0;}
 .about .skill_cont ul{margin-top:-20px;overflow:hidden;padding:0 30px;}
 .about .skill_cont ul li{position:relative;float:left;width:33.33%;margin-top:20px;padding-left:65px;height:50px;line-height:50px;font-size:18px;font-weight:500;color:#555;box-sizing:border-box;}
-.about .skill_cont ul li span{display:block;position:absolute;left:0;top:0;width:50px;height:50px;background:url(../images/about_icons.png) 0 -50px no-repeat;}
+.about .skill_cont ul li span.txt{display:inline-block;line-height:24px;vertical-align:middle;}
+.about .skill_cont ul li span.icon{display:block;position:absolute;left:0;top:0;width:50px;height:50px;background:url(../images/about_icons.png) 0 -50px no-repeat;}
 .about .skill_cont ul li:first-child{margin-left:0;}
 .about .skill_cont ul li.icon02 span{background-position:-50px -50px;}
 .about .skill_cont ul li.icon03 span{background-position:-100px -50px;}
