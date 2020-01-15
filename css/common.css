@@ -305,6 +305,7 @@ footer .copyright{font-size:14px;color:#222;}
 
 @media (max-width: 480px) {
   #intro svg{height:60px;}
+  .work_list{padding-top:30px;}
   .about h2.title{margin-bottom:30px;font-size:40px;line-height:40px;}
   .work_list .grid .grid-item{padding:0;}
   .about .about_cont ul li{font-size:14px;}
