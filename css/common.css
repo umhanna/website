@@ -287,7 +287,7 @@ footer .copyright{font-size:14px;color:#222;}
   .about .skill_cont ul li.icon06 span{background-position:-160px -40px;}
 
   .about .history_cont{margin-bottom:50px;}
-  .about .history_list ul{padding:20px 10px;}
+  .about .history_list ul{padding:20px 0px;}
   .about .history_list ul li{margin-top:20px;line-height:22px;font-size:15px;}
   .about .history_list ul li span{margin-bottom:5px;font-size:18px;}
   .about .history_list ul li.left{padding-right:20px;}
