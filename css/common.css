@@ -313,4 +313,7 @@ footer .copyright{font-size:14px;color:#222;}
   .work_list .grid .grid-item .pj_cont dl dt{margin-bottom:5px;font-size:24px;line-height:22px;}
   .work_list .grid .grid-item .pj_cont dl dt span{font-size:16px;}
   .work_list .grid .grid-item .pj_cont dl dd{font-size:16px;}
+  
+  .about .history_list ul li{line-height:20px;font-size:14px;}
+  .about .history_list ul li span{margin-bottom:5px;font-size:16px;}
 }
