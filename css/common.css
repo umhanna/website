@@ -288,7 +288,7 @@ footer .copyright{font-size:14px;color:#222;}
 
   .about .history_cont{margin-bottom:50px;}
   .about .history_list ul li{margin-top:20px;line-height:22px;font-size:15px;}
-  .about .history_list ul li span{font-size:18px;}
+  .about .history_list ul li span{margin-bottom:5px;font-size:18px;}
   .about .history_list ul li.left{padding-right:20px;}
   .about .history_list ul li.right{padding-left:20px;}
 
