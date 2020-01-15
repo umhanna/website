@@ -29,7 +29,7 @@ function listPosition(){
         }
     }else if(($(window).width() <= 767)){
         $(".grid").css({height :"auto"});
-        $(".grid .grid-item").css({top:"0px",left:"inherit",right:"inherit",marginTop:"20px"});
+        $(".grid .grid-item").css({top:"0px",left:"inherit",right:"inherit",marginTop:"40px"});
     }
 }
 
