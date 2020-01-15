@@ -297,5 +297,6 @@ footer .copyright{font-size:14px;color:#222;}
 
 
 @media (max-width: 480px) {
-
+  .work_list .grid .grid-item{padding:0;}
+  .about .skill_cont ul li{min-width:100%;}
 }
