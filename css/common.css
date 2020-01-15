@@ -277,7 +277,8 @@ footer .copyright{font-size:14px;color:#222;}
   .about .about_cont ul li.icon04 span{background-position:-120px 0;}
   .about .about_cont ul li.icon05 span{background-position:-160px 0;}
 
-  .about .skill_cont ul li{width:50%;height:40px;line-height:40px;font-size:16px;}
+  .about .skill_cont ul{font-size:0;}
+  .about .skill_cont ul li{display:inline-block;float:none;min-width:50%;width:auto;height:40px;line-height:40px;font-size:16px;}
   .about .skill_cont ul li span{width:40px;height:40px;background-size:200px;background-position:0 -40px;}
   .about .skill_cont ul li.icon02 span{background-position:-40px -40px;}
   .about .skill_cont ul li.icon03 span{background-position:-80px -40px;}
