@@ -254,6 +254,7 @@ footer .copyright{font-size:14px;color:#222;}
   header{height:60px;}
   header .header_fix{height:60px;}
   header .header_inner .logo img{height:25px;}
+  header .header_fix.scroll_on .logo img{height:25px;}
   header .header_inner .menu_btn .inner{width:30px;}
   header .header_inner .menu_btn span{height:2px;}
   #gnb ul li{margin-top:40px;}
