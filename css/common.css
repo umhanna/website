@@ -309,4 +309,7 @@ footer .copyright{font-size:14px;color:#222;}
   .work_list .grid .grid-item{padding:0;}
   .about .skill_cont ul li{min-width:100%;font-size:14px;}
   .about .skill_cont ul li span.txt{line-height:22px;}
+
+  .work_list .grid .grid-item .pj_cont dl dt{margin-bottom:5px;font-size:24px;line-height:22px;}
+  .work_list .grid .grid-item .pj_cont dl dt span{font-size:16px;}
 }
