@@ -263,6 +263,7 @@ footer .copyright{font-size:14px;color:#222;}
   header .header_inner .menu_btn.on span{transform: rotate(45deg) translate(1px, 1px);}
   .cont_center{padding:0 20px;}
 
+  .work_list{padding-top:10px;}
   .gnb_bg .bg_txt{display:none;}
   .work_list .grid .grid-item{position:relative;display:block;width:100%;max-width:100%;box-sizing:border-box;}
 
@@ -306,7 +307,6 @@ footer .copyright{font-size:14px;color:#222;}
 
 @media (max-width: 480px) {
   #intro svg{height:60px;}
-  .work_list{padding-top:30px;}
   .about h2.title{margin-bottom:30px;font-size:40px;line-height:40px;}
   .work_list .grid .grid-item{padding:0;}
   .about .about_cont ul li{font-size:14px;}
