@@ -303,5 +303,6 @@ footer .copyright{font-size:14px;color:#222;}
   #intro svg{height:60px;}
   .about h2.title{margin-bottom:30px;font-size:40px;line-height:40px;}
   .work_list .grid .grid-item{padding:0;}
-  .about .skill_cont ul li{min-width:100%;}
+  .about .skill_cont ul li{min-width:100%;font-size:14px;}
+  .about .skill_cont ul li span.txt{line-height:22px;}
 }
