@@ -8,10 +8,10 @@ $(window).load(function() {
 });
 //listPosition
 function listPosition(){
+    imgList = $(".grid-item");
+    imgStack = [0, 0];
+    colWidth = 400;
     if($(window).width() > 767){
-        imgList = $(".grid-item");
-        imgStack = [0, 0];
-        colWidth = 400;
         for(i = 0; i < imgList.length; i++) {
             minIndex = imgStack.indexOf(Math.min.apply(0, imgStack));
             x = colWidth * minIndex;
