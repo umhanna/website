@@ -250,8 +250,7 @@ footer .copyright{font-size:14px;color:#222;}
 
   #intro svg{height:70px;}
   
-  
-  .about .skill_cont .cont_center{padding:0px;}
+  .about .cont_center{padding:0px;}
 }
 
 @media screen and (max-width: 767px){
@@ -266,6 +265,7 @@ footer .copyright{font-size:14px;color:#222;}
   #gnb ul li a{font-size:40px;}
   header .header_inner .menu_btn.on span{transform: rotate(45deg) translate(1px, 1px);}
   .cont_center{padding:0 20px;}
+  .about .cont_center{padding:0px;}
 
   .work_list{padding-top:10px;}
   .gnb_bg .bg_txt{display:none;}
