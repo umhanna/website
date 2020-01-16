@@ -22,13 +22,12 @@ function listPosition(){
             $(".grid").css({height : `${Math.max.apply(0, imgStack)}px`});
             }
             if(i%2 == 0){
-            $(imgList[i]).css({left:"0px"});
+            $(imgList[i]).css({left:"0px",marginTop:"0"});
             }else{
             $(imgList[i]).css({right:"0px",marginTop:"5%"});
             }
         }
     }else if(window.matchMedia('(max-width: 767px)').matches){
-        console.log("a",$(document).innerWidth());
         $(".grid").css({height :"auto"});
         $(".grid .grid-item").css({top:"0px",left:"inherit",right:"inherit",marginTop:"40px"});
     }
