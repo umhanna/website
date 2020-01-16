@@ -249,8 +249,7 @@ footer .copyright{font-size:14px;color:#222;}
   #intro svg{height:70px;}
 }
 
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px){
   header{height:60px;}
   header .header_fix{height:60px;}
   header .header_inner .logo img{height:25px;}
