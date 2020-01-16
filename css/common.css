@@ -238,15 +238,18 @@ footer .copyright{font-size:14px;color:#222;}
   #gnb ul li{margin-top:50px;}
   #gnb ul li a{font-size:65px;}
   .gnb_bg .bg_txt{font-size:140px;line-height:140px;}
+  .cont_center{padding:0 20px;}
 
   .work_list{padding-top:50px;}
 
   .about .bg_txt{font-size:150px;margin-top:-90px;}
+  .work_list .grid .grid-item{padding:0;}
   .work_list .grid .grid-item .pj_cont dl dt{margin-bottom:5px;font-size:28px;line-height:24px;}
   .work_list .grid .grid-item .pj_cont dl dt span{font-size:18px;}
   .work_list .grid .grid-item .pj_cont dl dd{font-size:18px;}
 
   #intro svg{height:70px;}
+  
 }
 
 @media screen and (max-width: 767px){
