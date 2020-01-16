@@ -2,13 +2,13 @@
 html{width:100%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0}
-body,h1,h2,h3,h4,button{font-family:'Montserrat','Noto Sans KR',sans-serif;font-size:12px;color:#222;letter-spacing:-0.03em;}
+body,h1,h2,h3,h4,button{font-family:'Montserrat','Noto Sans',sans-serif;font-size:12px;color:#222;letter-spacing:-0.03em;}
 body{position:relative;overflow-y:scroll;-webkit-overflow-scrolling: touch;-webkit-font-smoothing: antialiased!important;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: geometricPrecision;background-color:#fff;word-break:break-all;-ms-word-break:break-all;font-weight:300;-webkit-overflow-scrolling: touch;}
 img,fieldset,iframe{border:0 none}
 li{list-style:none}
-input,select,button{vertical-align:middle;font-family:'Montserrat','Noto Sans KR',sans-serif;}
+input,select,button{vertical-align:middle;font-family:'Montserrat','Noto Sans',sans-serif;}
 img{vertical-align:top}
 i,em,address{font-style:normal}
 label,button{cursor:pointer}
