@@ -1,8 +1,6 @@
 
 $(window).load(function() {
-    $("html").css("overflow-y","hidden");
     $('#intro').fadeOut();
-    $("html").css("overflow-y","scroll");
     //list
     listPosition();
 });
