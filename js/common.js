@@ -27,7 +27,7 @@ function listPosition(){
             $(imgList[i]).css({right:"0px",marginTop:"5%"});
             }
         }
-    }else if(($(document).innerWidth() <= 767)){
+    }else if($(document).innerWidth() <= 767){
         console.log("a",$(document).innerWidth());
         $(".grid").css({height :"auto"});
         $(".grid .grid-item").css({top:"0px",left:"inherit",right:"inherit",marginTop:"40px"});
