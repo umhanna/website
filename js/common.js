@@ -11,7 +11,7 @@ function listPosition(){
     imgList = $(".grid-item");
     imgStack = [0, 0];
     colWidth = 400;
-    if(window.matchMedia('(max-width: 767px)').matches){
+    if(window.matchMedia('(min-width: 768px)').matches){
         for(i = 0; i < imgList.length; i++) {
             minIndex = imgStack.indexOf(Math.min.apply(0, imgStack));
             x = colWidth * minIndex;
@@ -27,7 +27,7 @@ function listPosition(){
             $(imgList[i]).css({right:"0px",marginTop:"5%"});
             }
         }
-    }else if(window.matchMedia('(min-width: 768px)').matches){
+    }else if(window.matchMedia('(max-width: 767px)').matches){
         console.log("a",$(document).innerWidth());
         $(".grid").css({height :"auto"});
         $(".grid .grid-item").css({top:"0px",left:"inherit",right:"inherit",marginTop:"40px"});
