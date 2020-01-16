@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: url(../font/NotoSans-Thin.eot);
+    src: url(../font/NotoSans-Thin.eot?#iefix) format('embedded-opentype'),
+         url(../font/NotoSans-Thin.woff2) format('woff2'),
+         url(../font/NotoSans-Thin.woff) format('woff'),
+         url(../font/NotoSans-Thin.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: url(../font/NotoSans-Light.eot);
+    src: url(../font/NotoSans-Light.eot?#iefix) format('embedded-opentype'),
+         url(../font/NotoSans-Light.woff2) format('woff2'),
+         url(../font/NotoSans-Light.woff) format('woff'),
+         url(../font/NotoSans-Light.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 350;
+    src: url(../font/NotoSans-DemiLight.eot);
+    src: url(../font/NotoSans-DemiLight.eot?#iefix) format('embedded-opentype'),
+         url(../font/NotoSans-DemiLight.woff2) format('woff2'),
+         url(../font/NotoSans-DemiLight.woff) format('woff'),
+         url(../font/NotoSans-DemiLight.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../font/NotoSans-Regular.eot);
+    src: url(../font/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+         url(../font/NotoSans-Regular.woff2) format('woff2'),
+         url(../font/NotoSans-Regular.woff) format('woff'),
+         url(../font/NotoSans-Regular.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/NotoSans-Medium.eot);
+    src: url(../font/NotoSans-Medium.eot?#iefix) format('embedded-opentype'),
+         url(../font/NotoSans-Medium.woff2) format('woff2'),
+         url(../font/NotoSans-Medium.woff) format('woff'),
+         url(../font/NotoSans-Medium.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../font/NotoSans-Bold.eot);
+    src: url(../font/NotoSans-Bold.eot?#iefix) format('embedded-opentype'),
+         url(../font/NotoSans-Bold.woff2) format('woff2'),
+         url(../font/NotoSans-Bold.woff) format('woff'),
+         url(../font/NotoSans-Bold.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    src: url(../font/Montserrat-Light.eot);
+    src: url(../font/Montserrat-Light.eot?#iefix) format('embedded-opentype'),
+         url(../font/Montserrat-Light.woff2) format('woff2'),
+         url(../font/Montserrat-Light.woff) format('woff'),
+         url(../font/Montserrat-Light.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../font/Montserrat-Regular.eot);
+    src: url(../font/Montserrat-Regular.eot?#iefix) format('embedded-opentype'),
+         url(../font/Montserrat-Regular.woff2) format('woff2'),
+         url(../font/Montserrat-Regular.woff) format('woff'),
+         url(../font/Montserrat-Regular.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/Montserrat-Medium.eot);
+    src: url(../font/Montserrat-Medium.eot?#iefix) format('embedded-opentype'),
+         url(../font/Montserrat-Medium.woff2) format('woff2'),
+         url(../font/Montserrat-Medium.woff) format('woff'),
+         url(../font/Montserrat-Medium.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../font/Montserrat-SemiBold.eot);
+    src: url(../font/Montserrat-SemiBold.eot?#iefix) format('embedded-opentype'),
+         url(../font/Montserrat-SemiBold.woff2) format('woff2'),
+         url(../font/Montserrat-SemiBold.woff) format('woff'),
+         url(../font/Montserrat-SemiBold.ttf) format('truetype');
+  }
+  
