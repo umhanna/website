@@ -18,8 +18,10 @@ function listPosition(){
             y = imgStack[minIndex];
             imgStack[minIndex] += ($(imgList[i]).find("img").height() + 150);
             $(imgList[i]).css({top : (y)+'px'});
+            //$(imgList[i]).css({top : `${y}px`});
             if(i === imgList.length - 1) {
-            $(".grid").css({height : `${Math.max.apply(0, imgStack)}px`});
+            $(".grid").css({height : (Math.max.apply(0, imgStack))+px});
+            //$(".grid").css({height : `${Math.max.apply(0, imgStack)}px`});
             }
             if(i%2 == 0){
             $(imgList[i]).css({left:"0px",marginTop:"0"});
