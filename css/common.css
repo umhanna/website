@@ -275,7 +275,8 @@ footer .copyright{font-size:14px;color:#222;}
   .detail_wrap{margin-top:60px;}
   .detail_wrap .screen_sec{margin-bottom:50px;}
   .detail_wrap .screen_sec .tablet_ver{top:0;margin-left: 0;}
-  .detail_wrap .screen_sec .m_ver{top:140px;margin-left: -60px;}
+  .detail_wrap .screen_sec .m_ver{top:0px;margin-left:0px;}
+  .detail_wrap .screen_sec.reaction_ty .m_ver{top:140px;margin-left: -60px;}
 
   .back_list{height:200px;}
   .back_list a{margin:50px 60px 0 0;padding-right:50px;font-size:30px;}
@@ -335,6 +336,8 @@ footer .copyright{font-size:14px;color:#222;}
   footer .footer_logo img{width:80%;}
   footer .adr_txt .txt{font-size:12px;}
   footer .copyright{font-size:12px;}
+  
+  .detail_wrap .screen_sec.reaction_ty .m_ver{top:0px;margin-left:0px;}
 
 }
 
