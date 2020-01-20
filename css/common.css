@@ -262,6 +262,8 @@ footer .copyright{font-size:14px;color:#222;}
   .about .cont_center{padding:0px;}
   .work_list .grid .grid-item .pj_cont{margin: 10px 0 0 10px;}
 
+  .view .mv .cover_bg .arrow a{font-size:25px;}
+  .view .mv .cover_bg .arrow .icon{background-size:auto 15px;}
   .info_wrap{margin-top:60px;}
   .info_wrap .cont_center{text-align:center;}
   .info_wrap .title{width:100%;float:none;padding:0;margin-bottom:30px;}
