@@ -263,11 +263,13 @@ footer .copyright{font-size:14px;color:#222;}
   .work_list .grid .grid-item .pj_cont{margin: 10px 0 0 10px;}
 
   .info_wrap{margin-top:60px;}
+  .info_wrap .cont_center{text-align:center;}
   .info_wrap .title{width:100%;float:none;padding:0;margin-bottom:30px;}
-  .info_wrap .cont dl{margin-top:20px;}
   .info_wrap .title dl dt{margin-bottom:10px;}
   .info_wrap .title dl dd{text-align:left;}
-  .info_wrap .cont{width:100%;float:none;padding:0;}
+  .info_wrap .cont{display:inline-block;width:auto;float:none;padding:0;}
+  .info_wrap .cont dl{margin-top:20px;}
+  .info_wrap .cont dl dt{text-align:left;}
   .detail_wrap .screen_sec{margin-bottom:50px;}
   .detail_wrap .screen_sec .tablet_ver{top:0;margin-left: 0;}
   .detail_wrap .screen_sec .m_ver{top:140px;margin-left: -60px;}
