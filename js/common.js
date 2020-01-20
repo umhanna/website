@@ -39,6 +39,11 @@ $(window).ready(function(){
     $(window).resize(function(){
             listPosition();
     });
+    //ios background
+    var deviceAgent = navigator.userAgent.toLowerCase();
+    if (deviceAgent.match(/(iphone|ipod|ipad)/)) {
+    $('.iosnone').removeClass('iosnone');
+    }
     //nav link
     var headHeight = $("header .header_fix").height();
     $("#gnb li a").on({
