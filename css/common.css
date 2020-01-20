@@ -265,6 +265,7 @@ footer .copyright{font-size:14px;color:#222;}
   .info_wrap{margin-top:60px;}
   .info_wrap .title{width:100%;float:none;padding:0;margin-bottom:30px;}
   .info_wrap .cont dl{margin-top:20px;}
+  .info_wrap .title dl dt{margin-bottom:10px;}
   .info_wrap .title dl dd{text-align:left;}
   .info_wrap .cont{width:100%;float:none;padding:0;}
   .detail_wrap .screen_sec{margin-bottom:50px;}
