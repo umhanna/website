@@ -362,4 +362,6 @@ footer .copyright{font-size:14px;color:#222;}
   .about .history_list ul li{line-height:20px;font-size:14px;}
   .about .history_list ul li span{margin-bottom:5px;font-size:16px;}
   .work_list .grid .grid-item .pj_cont{margin:20px 0 0;}
+  .info_wrap .cont dl dt{float:none;width:100%;text-align:center;}
+  .info_wrap .cont dl dd{float:none;text-align:center;}
 }
