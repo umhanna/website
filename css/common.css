@@ -272,7 +272,7 @@ footer .copyright{font-size:14px;color:#222;}
   .detail_wrap .screen_sec .m_ver{top:140px;margin-left: -60px;}
 
   .back_list{height:200px;}
-  .back_list a{margin:90px 60px 0 0;padding-right:50px;font-size:30px;}
+  .back_list a{margin:50px 60px 0 0;padding-right:50px;font-size:30px;}
   .back_list a .text:after{height:10px;}
   .back_list a .arrow{background-size:auto 30px;}
 }
