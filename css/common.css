@@ -343,6 +343,10 @@ footer .copyright{font-size:14px;color:#222;}
   .info_wrap .cont dl dd{font-size:16px;}
   .detail_wrap .screen_sec.reaction_ty .m_ver{top:0px;margin-left:0px;}
 
+  .back_list{height:200px;}
+  .back_list a{margin:50px 20px 0 0;padding-right:30px;font-size:20px;}
+  .back_list a .text:after{height:10px;}
+  .back_list a .arrow{background-size:auto 20px;}
 }
 
 
