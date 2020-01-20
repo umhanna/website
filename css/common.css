@@ -263,9 +263,10 @@ footer .copyright{font-size:14px;color:#222;}
   .about .cont_center{padding:0px;}
   .work_list .grid .grid-item .pj_cont{margin: 10px 0 0 10px;}
 
-  .info_wrap .title{width:100%;float:none;margin-bottom:30px;}
+  .info_wrap .title{width:100%;float:none;padding:0;margin-bottom:30px;}
+  .info_wrap .cont dl{margin-top:20px;}
   .info_wrap .title dl dd{text-align:left;}
-  .info_wrap .cont{width:100%;float:none;}
+  .info_wrap .cont{width:100%;float:none;padding:0;}
   .detail_wrap .screen_sec{margin-bottom:50px;}
   .detail_wrap .screen_sec .tablet_ver{top:0;}
   .detail_wrap .screen_sec .m_ver{top:140px;margin-left: -60px;}
