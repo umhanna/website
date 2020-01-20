@@ -337,6 +337,10 @@ footer .copyright{font-size:14px;color:#222;}
   footer .adr_txt .txt{font-size:12px;}
   footer .copyright{font-size:12px;}
   
+  .info_wrap .title dl dt{margin-bottom:5px;font-size:25px;line-height:22px;}
+  .info_wrap .title dl dd{font-size:16px;}
+  .info_wrap .cont dl dt{width:170px;font-size:20px;}
+  .info_wrap .cont dl dd{font-size:16px;}
   .detail_wrap .screen_sec.reaction_ty .m_ver{top:0px;margin-left:0px;}
 
 }
