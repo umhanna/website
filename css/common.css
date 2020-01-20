@@ -235,6 +235,8 @@ footer .copyright{font-size:14px;color:#222;}
 
   .detail_wrap .screen_sec{padding:0 40px;}
   .detail_wrap .screen_sec .ps_re img{width:100%;}
+
+  .detail_wrap .screen_sec .pc_ver .scroll_img{left:5%;top:6%;width:88%;height:65%;}
 }
 
 @media screen and (max-width: 1024px) {
