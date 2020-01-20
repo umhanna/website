@@ -233,7 +233,6 @@ footer .copyright{font-size:14px;color:#222;}
   .info_wrap .title dl{display:inline-block;}
   .info_wrap .cont{width:50%;padding:0 2% 0 2%;box-sizing:border-box;}
 
-  .detail_wrap .screen_sec{padding:0 40px;}
   .detail_wrap .screen_sec .ps_re img{width:100%;}
 
   .detail_wrap .screen_sec .pc_ver .scroll_img{left:5%;top:6%;width:88%;height:65%;}
@@ -263,6 +262,7 @@ footer .copyright{font-size:14px;color:#222;}
   .about .cont_center{padding:0px;}
   .work_list .grid .grid-item .pj_cont{margin: 10px 0 0 10px;}
 
+  .info_wrap{margin-top:60px;}
   .info_wrap .title{width:100%;float:none;padding:0;margin-bottom:30px;}
   .info_wrap .cont dl{margin-top:20px;}
   .info_wrap .title dl dd{text-align:left;}
