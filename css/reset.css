@@ -1,6 +1,5 @@
 /* Reset CSS */
-html{width:100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);}
+html{width:100%;min-width:320px;-webkit-tap-highlight-color: rgba(0,0,0,0);}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0}
 body,h1,h2,h3,h4,button{font-family:'Montserrat','Noto Sans',sans-serif;font-size:12px;color:#222;letter-spacing:-0.03em;}
 body{position:relative;overflow-y:scroll;-webkit-overflow-scrolling: touch;-webkit-font-smoothing: antialiased!important;
