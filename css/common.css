@@ -105,18 +105,18 @@ footer .copyright{font-size:14px;color:#222;}
 /* workList */
 .work_list{padding-top:80px;margin-bottom:100px;}
 .work_list .grid{position:relative;}
-.work_list .grid .grid-item{display:inline-block;position:absolute;width:40%;max-width:500px;padding:20px;overflow:hidden;}
-.work_list .grid .grid-item .inner_box{position:relative;top:40px;left:0;right:0;width:100%;height:100%;opacity:0;transition:0.8s;}
-.work_list .grid .grid-item.on .inner_box{opacity:1;top:0;}
-.work_list .grid .grid-item .bg{opacity:0;position:absolute;left:0;width:100%;height:100%;text-align:left;top:0;transition:.5s;background:url(../images/list_hover_bg.png) repeat center;/*transform: rotate(-50deg) scale(2,0);*/}
-.work_list .grid .grid-item.hover .bg{opacity:1;}
-.work_list .grid .grid-item a{position:relative;display:block;margin:0 auto;overflow:hidden;}
-.work_list .grid .grid-item .thumb_img{position:relative;overflow:hidden;display:block;}
-.work_list .grid .grid-item .thumb_img img{width:100%;}
-.work_list .grid .grid-item .pj_cont{position:relative;margin:20px 0 0 20px;}
-.work_list .grid .grid-item .pj_cont dl dt{margin-bottom:10px;font-size:34px;line-height:30px;color:#333;font-weight:400;}
-.work_list .grid .grid-item .pj_cont dl dt span{display:inline-block;margin:0px 0 0 10px;font-size:20px;}
-.work_list .grid .grid-item .pj_cont dl dd{line-height:28px;font-size:20px;color:#555;word-break:keep-all;}
+.work_list .grid .grid_item{display:inline-block;position:absolute;width:40%;max-width:500px;padding:20px;overflow:hidden;}
+.work_list .grid .grid_item .inner_box{position:relative;top:40px;left:0;right:0;width:100%;height:100%;opacity:0;transition:0.8s;}
+.work_list .grid .grid_item.on .inner_box{opacity:1;top:0;}
+.work_list .grid .grid_item .bg{opacity:0;position:absolute;left:0;width:100%;height:100%;text-align:left;top:0;transition:.5s;background:url(../images/list_hover_bg.png) repeat center;/*transform: rotate(-50deg) scale(2,0);*/}
+.work_list .grid .grid_item.hover .bg{opacity:1;}
+.work_list .grid .grid_item a{position:relative;display:block;margin:0 auto;overflow:hidden;}
+.work_list .grid .grid_item .thumb_img{position:relative;overflow:hidden;display:block;}
+.work_list .grid .grid_item .thumb_img img{width:100%;}
+.work_list .grid .grid_item .pj_cont{position:relative;margin:20px 0 0 20px;}
+.work_list .grid .grid_item .pj_cont dl dt{margin-bottom:10px;font-size:34px;line-height:30px;color:#333;font-weight:400;}
+.work_list .grid .grid_item .pj_cont dl dt span{display:inline-block;margin:0px 0 0 10px;font-size:20px;}
+.work_list .grid .grid_item .pj_cont dl dd{line-height:28px;font-size:20px;color:#555;word-break:keep-all;}
 
 
 /* about me */
@@ -258,15 +258,15 @@ footer .copyright{font-size:14px;color:#222;}
   .work_list{padding-top:50px;}
 
   .about .bg_txt{font-size:150px;margin-top:-90px;}
-  .work_list .grid .grid-item{padding:0;}
-  .work_list .grid .grid-item .pj_cont dl dt{margin-bottom:5px;font-size:28px;line-height:24px;}
-  .work_list .grid .grid-item .pj_cont dl dt span{font-size:18px;}
-  .work_list .grid .grid-item .pj_cont dl dd{font-size:18px;}
+  .work_list .grid .grid_item{padding:0;}
+  .work_list .grid .grid_item .pj_cont dl dt{margin-bottom:5px;font-size:28px;line-height:24px;}
+  .work_list .grid .grid_item .pj_cont dl dt span{font-size:18px;}
+  .work_list .grid .grid_item .pj_cont dl dd{font-size:18px;}
 
   #intro svg{height:70px;}
   
   .about .cont_center{padding:0px;}
-  .work_list .grid .grid-item .pj_cont{margin: 10px 0 0 10px;}
+  .work_list .grid .grid_item .pj_cont{margin: 10px 0 0 10px;}
 
   .view .mv .cover_bg .arrow a{font-size:25px;}
   .view .mv .cover_bg .arrow .icon{background-size:auto 15px;}
@@ -307,7 +307,7 @@ footer .copyright{font-size:14px;color:#222;}
 
   .work_list{padding-top:10px;}
   .gnb_bg .bg_txt{display:none;}
-  .work_list .grid .grid-item{position:relative;display:block;width:100%;max-width:100%;box-sizing:border-box;}
+  .work_list .grid .grid_item{position:relative;display:block;width:100%;max-width:100%;box-sizing:border-box;}
 
   .about{padding:60px 0;}
   .about .bg_txt{display:none;}
@@ -360,19 +360,19 @@ footer .copyright{font-size:14px;color:#222;}
 @media screen and (max-width: 480px) {
   #intro svg{height:60px;}
   .about h2.title{margin-bottom:30px;font-size:40px;line-height:40px;}
-  .work_list .grid .grid-item{padding:0;}
+  .work_list .grid .grid_item{padding:0;}
   .about .about_cont ul li{font-size:15px;}
   .about .about_cont ul li span.txt{line-height:22px;}
   .about .skill_cont ul li{min-width:100%;font-size:15px;}
   .about .skill_cont ul li span.txt{line-height:22px;}
 
-  .work_list .grid .grid-item .pj_cont dl dt{margin-bottom:5px;font-size:24px;line-height:22px;}
-  .work_list .grid .grid-item .pj_cont dl dt span{font-size:16px;}
-  .work_list .grid .grid-item .pj_cont dl dd{font-size:16px;}
+  .work_list .grid .grid_item .pj_cont dl dt{margin-bottom:5px;font-size:24px;line-height:22px;}
+  .work_list .grid .grid_item .pj_cont dl dt span{font-size:16px;}
+  .work_list .grid .grid_item .pj_cont dl dd{font-size:16px;}
   
   .about .history_list ul li{line-height:20px;font-size:14px;}
   .about .history_list ul li span{margin-bottom:5px;font-size:16px;}
-  .work_list .grid .grid-item .pj_cont{margin:20px 0 0;}
+  .work_list .grid .grid_item .pj_cont{margin:20px 0 0;}
   .info_wrap .cont dl dt{float:none;width:100%;text-align:center;}
   .info_wrap .cont dl dd{float:none;text-align:center;}
 }

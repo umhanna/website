@@ -8,7 +8,7 @@ $(window).load(function() {
 });
 //listPosition
 function listPosition(){
-    imgList = $(".grid-item");
+    imgList = $(".grid_item");
     imgStack = [0, 0];
     colWidth = 400;
     if(window.matchMedia('(min-width: 768px)').matches){
@@ -29,7 +29,7 @@ function listPosition(){
         }
     }else if(window.matchMedia('(max-width: 767px)').matches){
         $(".grid").css({height :"auto"});
-        $(".grid .grid-item").css({top:"0px",left:"inherit",right:"inherit",marginTop:"40px"});
+        $(".grid .grid_item").css({top:"0px",left:"inherit",right:"inherit",marginTop:"40px"});
     }
 }
 
@@ -71,16 +71,16 @@ $(window).ready(function(){
         }
     });
     //list hover event
-    $(".work_list .grid .grid-item a").on({
+    $(".work_list .grid .grid_item a").on({
         mouseenter : function(e){
-            $(this).closest(".grid-item").addClass("hover");
+            $(this).closest(".grid_item").addClass("hover");
             TweenMax.to($(this).find(".hover_box dl"), 0.3, {opacity:1,marginTop:0,delay:0.3});
             TweenMax.to($(this).find(".thumb_img img"), 0.9, {scale:1.1});
             TweenMax.to($(this), 0.9, {cursor:'url(../website/images/list_cursor.png) 30 30,auto', ease: Circ.easeInOut});
             TweenMax.to($(this).find(".pj_cont"), 0.4, {top:-35});
         },
         mouseleave : function(e){
-            $(".work_list .grid .grid-item").removeClass("hover");
+            $(".work_list .grid .grid_item").removeClass("hover");
             TweenMax.to($(".hover_box dl"), 0.2, {opacity:0,marginTop:-20});
             TweenMax.to($(this).find(".thumb_img img"), 0.5, {scale:1});
             TweenMax.to($(this).find(".pj_cont"), 0.3, {top:0});
@@ -98,9 +98,9 @@ $(window).ready(function(){
 			var link = $(this);
 			if (wscroll > link.offset().top)
 			{
-				link.parent(".grid-item").addClass("on");
+				link.parent(".grid_item").addClass("on");
 			}else if(wscroll < link.offset().top){
-				link.parent(".grid-item").removeClass("on");
+				link.parent(".grid_item").removeClass("on");
 			}
         });
         //view scroll event
