@@ -211,7 +211,7 @@ footer .copyright{font-size:14px;color:#222;}
 .detail_wrap .screen_sec .pc_ver .scroll_img{position:absolute;top:40px;left:40px;width:736px;height:413px;overflow:hidden;}
 .detail_wrap .screen_sec .tablet_ver{top:110px;margin-left:-140px;z-index:2}
 .detail_wrap .screen_sec .tablet_ver .scroll_img{position:absolute;top:28px;left:29px;width:337px;height:445px;overflow:hidden;z-index:1;}
-.detail_wrap .screen_sec .m_ver{top:245px;margin-left:-140px;z-index:3}
+.detail_wrap .screen_sec .m_ver{top:165px;margin-left:-140px;z-index:3}
 .detail_wrap .screen_sec .m_ver .top_bg{position:absolute;left:50%;margin-left: -60px;top:23px;z-index:2;}
 .detail_wrap .screen_sec .m_ver .scroll_img{position:absolute;top:25px;left:23px;width:205px;height:409px;border-radius:20px;overflow:hidden;z-index:1;}
 .detail_wrap .detail_img img{width:100%;}
