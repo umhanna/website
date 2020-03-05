@@ -42,7 +42,7 @@ header .header_inner .menu_btn span:nth-child(2)
 {
   width:80%;
 }
-header .header_inner .menu_btn span:last-child
+header .header_inner .menu_btn span:nth-child(3)
 {
   -webkit-transform-origin: 0% 100%;
           transform-origin: 0% 100%;
@@ -60,7 +60,7 @@ header .header_inner .menu_btn.on span:nth-child(2)
   -webkit-transform: rotate(0deg) scale(0.2, 0.2);
           transform: rotate(0deg) scale(0.2, 0.2);
 }
-header .header_inner .menu_btn.on span:last-child
+header .header_inner .menu_btn.on span:nth-child(3)
 {
   -webkit-transform: rotate(-45deg) translate(0, -1px);
           transform: rotate(-45deg) translate(0, -1px);
