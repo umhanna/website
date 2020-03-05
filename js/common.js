@@ -65,8 +65,10 @@ $(window).ready(function(){
         if($(this).parent().hasClass("on")){
             $(".menu_btn").removeClass("on");
             $("#gnb, .gnb_bg").fadeOut();
+            $(this).text("메뉴 닫기");
         }else{
             $(this).parent().addClass("on");
+            $(this).text("메뉴 열기");
             $("#gnb, .gnb_bg").fadeIn();
         }
     });
